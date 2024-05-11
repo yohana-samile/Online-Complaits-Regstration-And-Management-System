@@ -13,7 +13,7 @@
         {
             DB::table('users')->insert([
                 'name' => 'Developer Samile',
-                'email' => 'yohanasamile@gmail.com',
+                'email' => 'eva@mwakipesilearu.ac.tz',
                 'password' => Hash::make('12345678'),
             ]);
         }

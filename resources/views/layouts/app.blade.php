@@ -20,13 +20,18 @@
     {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
     <style>
         .bg, .primaryColor{
-            background-color: #225294;
+            background-color: rgba(213, 94, 28, .9);
         }
         #btn, #sidebar{
             background-color: #225294;
         }
         .textColor{
             color: rgba(213, 94, 28, .9);
+        }
+        .btnSuccess{
+            background-color: rgba(213, 94, 28, .9);
+            float: right;
+            color: white;
         }
     </style>
 </head>
@@ -42,7 +47,7 @@
                     <a href="{{ url('complaits') }}"><span class="fa fa-recycle"></span> Complaits</a>
                 </li>
                 <li>
-                    <a href="{{ url('complaits') }}"><span class="fa fa-user"></span> Staff</a>
+                    <a href="{{ url('users') }}"><span class="fa fa-user"></span> Staff</a>
                 </li>
                 <li>
                     <a href="{{ route('logout') }}"
