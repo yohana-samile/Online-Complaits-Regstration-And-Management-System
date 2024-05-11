@@ -26,7 +26,7 @@
 
                             <div class="mb-3">
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-                                <label for="name" class="ol-form-label text-md-end">{{ __('Enter Staff Name') }}</label>
+                                <label for="name" class="text-md-end">{{ __('Enter Staff Name') }}</label>
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
